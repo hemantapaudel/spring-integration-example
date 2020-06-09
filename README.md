@@ -1,10 +1,4 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'com.spring.integration.example.spring-integration' is invalid and this project uses 'com.spring.integration.example.springintegration' instead.
-
-# Getting Started
-In this repository , I have create three service. 
+In this repository , I have created three services. 
 
 * account service
 * transaction service
@@ -25,6 +19,6 @@ http://localhost:8093/transactionservice/transaction?id=234
 
 
 The account service is consuming statement service ( using Webclient) for statement data and also consuming
-transaction service for transaction data using Resttemplate. 
+transaction service for transaction data using Rest template. 
 
 
